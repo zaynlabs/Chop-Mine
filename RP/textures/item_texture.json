@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "chopmine",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "chopmine_core": {
+      "textures": "textures/items/chop_core"
+    }
+  }
+}

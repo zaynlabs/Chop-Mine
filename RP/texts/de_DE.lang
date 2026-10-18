@@ -1,0 +1,31 @@
+pack.name=Chop & Mine
+pack.description=Bäume und Erze schnell auf einmal abbauen, mit Schutz für dein Werkzeug, Einsammeln von Gegenständen und Einstellungen im Spiel.
+
+item.chopmine.chop_core.name=Chop & Mine Kern
+item.chopmine:chop_core=Chop & Mine Kern
+itemGroup.name.tools=Werkzeuge
+
+action.interact.chopmine.open_menu=Einstellungen öffnen
+
+chopmine.menu.title=Chop & Mine Einstellungen
+chopmine.menu.enabled=Erze auf einmal abbauen
+chopmine.menu.tree_enabled=Ganze Bäume fällen
+chopmine.menu.crop_enabled=Ganze Felder ernten
+chopmine.menu.house_protection=Häuserschutz (braucht Blätter)
+chopmine.menu.leaf_decay=Schneller Laubzerfall
+chopmine.menu.magnet=Gegenstände anziehen
+chopmine.menu.auto_pickup=Direkt ins Inventar
+chopmine.menu.mode=Wie wird abgebaut?
+chopmine.menu.mode.crouch=Beim Schleichen
+chopmine.menu.mode.stand=Im Stehen (Schleichen stoppt)
+chopmine.menu.mode.always=Immer aktiv
+chopmine.menu.mode.core=Nur mit Kern in der Hand
+chopmine.menu.max_blocks=Maximale Blöcke auf einmal
+chopmine.menu.safeguard=Werkzeugschutz (stoppt vor Bruch)
+chopmine.menu.screen_shake=Kamera-Wackeln
+chopmine.menu.debug_mode=Entwickler-Ansicht
+
+chopmine.msg.harvested=§aAbgebaut: §f%s §7(%s Blöcke)
+chopmine.msg.safeguard=§cWerkzeugschutz: Abbau gestoppt, damit dein Werkzeug nicht kaputtgeht!
+chopmine.msg.op_only=§cNur Operatoren der Welt können das Einstellungsmenü öffnen!
+chopmine.msg.settings_saved=§aWelt-Einstellungen gespeichert! Gilt für alle Spieler.

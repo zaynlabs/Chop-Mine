@@ -1,0 +1,31 @@
+pack.name=Chop & Mine
+pack.description=Quickly chop whole trees, mine ore veins, harvest fields, protect your tools, and pull drops to you.
+
+item.chopmine.chop_core.name=Chop & Mine Core
+item.chopmine:chop_core=Chop & Mine Core
+itemGroup.name.tools=Tools
+
+action.interact.chopmine.open_menu=Open Settings
+
+chopmine.menu.title=Chop & Mine Settings
+chopmine.menu.enabled=Mine Whole Ore Veins
+chopmine.menu.tree_enabled=Chop Whole Trees
+chopmine.menu.crop_enabled=Harvest Whole Fields & Replant
+chopmine.menu.house_protection=House Protection
+chopmine.menu.leaf_decay=Fast Leaf Clearing
+chopmine.menu.magnet=Pull Drops to You (Magnet)
+chopmine.menu.auto_pickup=Pick Up Directly into Inventory
+chopmine.menu.mode=How to Activate
+chopmine.menu.mode.crouch=While Sneaking
+chopmine.menu.mode.stand=While Standing (Sneak to Stop)
+chopmine.menu.mode.always=Always On
+chopmine.menu.mode.core=Only While Holding Core
+chopmine.menu.max_blocks=Max Blocks at Once
+chopmine.menu.safeguard=Tool Protection (Stops Before Breaking)
+chopmine.menu.screen_shake=Screen Impact Feel (Gentle Shake)
+chopmine.menu.debug_mode=Show Extra Info
+
+chopmine.msg.harvested=§aHarvested: §f%s §7(%s blocks)
+chopmine.msg.safeguard=§cTool Protection: Stopped to keep your tool from breaking!
+chopmine.msg.op_only=§cOnly world operators can open the settings menu!
+chopmine.msg.settings_saved=§aWorld settings saved! All players will use these settings.

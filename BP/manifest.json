@@ -1,0 +1,33 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Chop & Mine (BP)",
+    "description": "Quickly chop whole trees, mine ore veins, harvest fields, protect your tools, and pull drops to you.",
+    "uuid": "cb5cf05a-1377-4f6b-b906-a7205742ad54",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 52]
+  },
+  "modules": [
+    {
+      "description": "Chop & Mine Script Engine",
+      "type": "script",
+      "uuid": "fb096c6f-6d64-4333-8c40-3e3d19858909",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.10.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.2.0"
+    },
+    {
+      "uuid": "693a425f-f482-4471-b06a-60fe916c457e",
+      "version": [1, 0, 0]
+    }
+  ]
+}
