@@ -82,40 +82,6 @@ Need to see if everything is running smoothly? Type **`status`** or **`/scriptev
 
 ---
 
-## 📂 Project Structure
-
-```
-Chop and Mine/
-├── README.md                            <-- This beginner-friendly guide
-├── AGENTS.md                            <-- Technical maintainer & agent instructions
-├── ChopAndMine.mcaddon                  <-- Installable package
-├── install_addon.py                     <-- Sync script to Bedrock dev folders
-├── BP/                                  <-- Behavior Pack
-│   ├── manifest.json                    <-- Pack info, server 2.10.0 & ui 2.2.0 dependencies
-│   ├── items/chop_core.json             <-- 3D Core item definition
-│   ├── recipes/chop_core.json           <-- Crafting table recipe
-│   └── scripts/
-│       ├── main.js                      <-- Event listeners, commands & diagnostic handlers
-│       ├── logger.js                    <-- Centralized logging & error boundaries
-│       ├── chop_mine.js                 <-- BFS crawler, generator job, safety cleanup & drops
-│       ├── block_registry.js            <-- Ore, tree, leaf & tool registries
-│       └── ui_settings.js               <-- In-game settings modal dialog & self-healing config
-└── RP/                                  <-- Resource Pack
-    ├── manifest.json
-    ├── pack_icon.png                    <-- High-definition pack icon
-    ├── attachables/chop_core.json       <-- Handheld display setup
-    ├── models/entity/chop_core.geo.json <-- Blockbench 3D model
-    ├── animations/chop_core.animation.json <-- Idle floating & rotation animation
-    ├── particles/harvest_spark.json     <-- Snowstorm particle effect
-    ├── texts/en_US.lang                 <-- Multi-language translation strings
-    └── textures/
-        ├── item_texture.json            <-- Item texture atlas
-        ├── items/chop_core.png          <-- Inventory sprite
-        └── entity/chop_core.png         <-- 3D model skin
-```
-
----
-
 ## ❓ Frequently Asked Questions (FAQ)
 
 **Q: I broke an ore while crouching, but only one block broke. Why?**  
